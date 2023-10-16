@@ -16,7 +16,7 @@ header {
 
 .header_container {
 
-  width: $large;
+  width: $xxx_large;
   margin: 0 auto;
 
 
@@ -57,11 +57,16 @@ header {
 
 }
 
+.main_section{
 
+  padding-top: 60px;
+
+}
 .main_section_container {
 
-  width: $large;
+  width: $xxx_large;
   margin: 0 auto;
+
 
   .grid_container {
 
@@ -111,6 +116,13 @@ header {
 
     }
 
+    .main_section_img{
+      width: 540px;
+      height: 560px;
+      background-image: url("../img/paper.png");
+
+
+    }
   }
 
 
@@ -122,7 +134,7 @@ header {
 
   .product_section_container {
 
-    width: $large;
+    width: $xxx_large;
     margin: 0 auto;
 
 
@@ -270,14 +282,14 @@ header {
 }
 
 .advertising_section {
-  background: $river_Bed;
+  background: $gallery;
   padding-top: 90px;
   padding-bottom: 90px;
 
 
   .advertising_container {
 
-    width: $large;
+    width: $xxx_large;
     margin: 0 auto;
 
     .advertising_grid_container {
@@ -309,7 +321,7 @@ header {
 
   .prefooter_container {
 
-    width: $large;
+    width: $xxx_large;
     margin: 0 auto;
 
     .prefooter_gridcontainer {
@@ -348,6 +360,7 @@ header {
 
           width: 255px;
           height: 70px;
+          margin-bottom: 60px;
           padding: 20px 50px;
           border: 1px solid $cornflower_Blue;
           background: transparent;
@@ -368,38 +381,75 @@ header {
 }
 
 footer {
-  padding-top: 28px;
-  padding-bottom: 28px;
-  background: $river_Bed;
+  .footer_wrapper{
 
-  .footer_container {
-    width: $large;
-    margin: 0 auto;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    background: $river_Bed;
 
-    .footer_flex_container {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
+    .footer_container {
+      width: $xxx_large;
+      margin: 0 auto;
 
+      .footer_flex_container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background: $river_Bed;
 
-      a {
+        a {
+          text-decoration: none;
+          margin-right: 30px;
 
-        margin-right: 30px;
+          &:last-child {
 
-        &:last-child {
+            margin-right: 28px;
 
-          margin-right: 28px;
+          }
+
 
         }
 
 
       }
 
-
     }
+  }
+
+  .footer_container_two{
+
+    width: $xxx_large;
+    margin: 0 auto;
 
   }
+  .footer_copyright{
+    height: 21px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    color: $river_Bed;
+    font-family: $roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: $normal;
+    line-height: normal;
+    text-transform: uppercase;
+
+    span{
+
+      color: $silver;
+      font-family: $roboto;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: $normal;
+      line-height: normal;
+      text-transform: uppercase;
+
+
+    }
+  }
+
 
 
 }
