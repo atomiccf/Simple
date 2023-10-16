@@ -9,6 +9,26 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Button */
+.btn {
+  width: 255px;
+  height: 70px;
+  margin-bottom: 130px;
+  padding: 20px 50px;
+  background: transparent;
+  border: 1px solid #7875FE;
+  color: #7875FE;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Card */
 header {
   border-bottom: #DDD solid 1px;
 }
@@ -34,7 +54,6 @@ header {
 .header_container .header_flex_container nav ul li {
   margin-right: 60px;
   color: #4C5866;
-  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -58,7 +77,6 @@ header {
 .main_section_container .grid_container .grid_container_header {
   margin-bottom: 30px;
   color: #4C5866;
-  font-family: "Roboto", sans-serif;
   font-size: 60px;
   font-style: normal;
   font-weight: 400;
@@ -67,25 +85,10 @@ header {
 .main_section_container .grid_container .grid_container_text {
   margin-bottom: 30px;
   color: #85859B;
-  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
-}
-.main_section_container .grid_container .grid_container_button {
-  width: 255px;
-  height: 70px;
-  margin-bottom: 130px;
-  padding: 20px 50px;
-  background: transparent;
-  border: 1px solid #7875FE;
-  color: #7875FE;
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
 .main_section_container .grid_container .main_section_img {
   width: 540px;
@@ -115,7 +118,6 @@ header {
 }
 .product_section .product_section_container .product_section_grid_container .grid_item .grid_item_header {
   color: #666666;
-  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -123,7 +125,6 @@ header {
 }
 .product_section .product_section_container .product_section_grid_container .grid_item .grid_item_text {
   color: #85859B;
-  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -138,7 +139,6 @@ header {
 .product_section .product_section_grid_container_second .product_section_grid_container_second_header {
   margin-bottom: 20px;
   color: #85859B;
-  font-family: "Roboto", sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
@@ -147,7 +147,6 @@ header {
 .product_section .product_section_grid_container_second .product_section_grid_container_second_text {
   margin-bottom: 20px;
   color: #85859B;
-  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -167,7 +166,6 @@ header {
   margin-top: 20px;
   margin-bottom: 8px;
   color: #666666;
-  font-family: "Roboto", sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
@@ -176,16 +174,15 @@ header {
 .product_section .product_section_three .product_section_grid_container_three .product_section_grid_container_three_item .circulation {
   margin-bottom: 8px;
   color: #B5B5BD;
-  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 .product_section .product_section_three .product_section_grid_container_three .product_section_grid_container_three_item .product_section_grid_container_three_item_text {
+  width: 255px;
   margin-bottom: 20px;
   color: #85859B;
-  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -194,7 +191,6 @@ header {
 .product_section .product_section_three .product_section_grid_container_three .product_section_grid_container_three_item .product_section_grid_container_three_item_link {
   text-decoration: none;
   color: #7875FE;
-  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -238,7 +234,6 @@ header {
   margin-top: 24px;
   margin-bottom: 8px;
   color: #666666;
-  font-family: "Roboto", sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
@@ -247,25 +242,10 @@ header {
 .prefooter_section .prefooter_container .prefooter_gridcontainer .prefooter_article .prefooter_article_text {
   margin-bottom: 30px;
   color: #85859B;
-  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 170%;
-}
-.prefooter_section .prefooter_container .prefooter_gridcontainer .prefooter_article .prefooter_article_btn {
-  width: 255px;
-  height: 70px;
-  margin-bottom: 60px;
-  padding: 20px 50px;
-  border: 1px solid #7875FE;
-  background: transparent;
-  color: #7875FE;
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
 
 footer .footer_wrapper {
@@ -301,7 +281,6 @@ footer .footer_copyright {
   padding-bottom: 3px;
   text-align: center;
   color: #4C5866;
-  font-family: "Roboto", sans-serif;
   font-size: 13px;
   font-style: normal;
   font-weight: 400;

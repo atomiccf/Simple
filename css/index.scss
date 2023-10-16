@@ -7,6 +7,38 @@
 
 }
 
+body{
+
+  font-family: $roboto;
+
+
+}
+
+/* Button */
+
+.btn {
+
+  width: 255px;
+  height: 70px;
+  margin-bottom: 130px;
+  padding: 20px 50px;
+  background: transparent;
+  border: 1px solid $cornflower_Blue;
+  color: $cornflower_Blue;
+  font-size: $medium;
+  font-style: normal;
+  font-weight: $normal;
+  line-height: normal;
+
+
+}
+
+/* Card */
+
+
+
+
+
 header {
 
   border-bottom: #DDD solid 1px;
@@ -41,7 +73,6 @@ header {
         li {
           margin-right: 60px;
           color: $river_Bed;
-          font-family: $roboto;
           font-size: $medium;
           font-style: normal;
           font-weight: $normal;
@@ -78,7 +109,6 @@ header {
     .grid_container_header {
       margin-bottom: 30px;
       color: $river_Bed;
-      font-family: $roboto;
       font-size: $big;
       font-style: normal;
       font-weight: $normal;
@@ -90,7 +120,6 @@ header {
     .grid_container_text {
       margin-bottom: 30px;
       color: $waterloo;
-      font-family: $roboto;
       font-size: $small;
       font-style: normal;
       font-weight: $normal;
@@ -99,22 +128,6 @@ header {
 
     }
 
-    .grid_container_button {
-
-      width: 255px;
-      height: 70px;
-      margin-bottom: 130px;
-      padding: 20px 50px;
-      background: transparent;
-      border: 1px solid $cornflower_Blue;
-      color: $cornflower_Blue;
-      font-family: $roboto;
-      font-size: $medium;
-      font-style: normal;
-      font-weight: $normal;
-      line-height: normal;
-
-    }
 
     .main_section_img{
       width: 540px;
@@ -156,7 +169,6 @@ header {
         .grid_item_header {
 
           color: $dove_Gray;
-          font-family: $roboto;
           font-size: $small;
           font-style: normal;
           font-weight: $semiBold;
@@ -167,7 +179,6 @@ header {
         .grid_item_text {
 
           color: $waterloo;
-          font-family: $roboto;
           font-size: $small;
           font-style: normal;
           font-weight: $normal;
@@ -190,7 +201,6 @@ header {
     .product_section_grid_container_second_header {
       margin-bottom: 20px;
       color: $waterloo;
-      font-family: $roboto;
       font-size: $semiBig;
       font-style: normal;
       font-weight: $normal;
@@ -201,7 +211,6 @@ header {
     .product_section_grid_container_second_text {
       margin-bottom: 20px;
       color: $waterloo;
-      font-family: $roboto;
       font-size: $small;
       font-style: normal;
       font-weight: $normal;
@@ -229,7 +238,6 @@ header {
           margin-top: 20px;
           margin-bottom: 8px;
           color: $dove_Gray;
-          font-family: $roboto;
           font-size: 30px;
           font-style: normal;
           font-weight: $normal;
@@ -241,7 +249,6 @@ header {
         .circulation {
           margin-bottom: 8px;
           color: $Bombay;
-          font-family: $roboto;
           font-size: $extraSmall;
           font-style: normal;
           font-weight: $normal;
@@ -250,9 +257,9 @@ header {
         }
 
         .product_section_grid_container_three_item_text {
+          width: 255px;
           margin-bottom: 20px;
           color: $waterloo;
-          font-family: $roboto;
           font-size: $small;
           font-style: normal;
           font-weight: $normal;
@@ -264,7 +271,6 @@ header {
         .product_section_grid_container_three_item_link {
           text-decoration: none;
           color: $cornflower_Blue;
-          font-family: $roboto;
           font-size: $medium;
           font-style: normal;
           font-weight: $normal;
@@ -302,7 +308,6 @@ header {
         justify-items: center;
         width: 255px;
         height: 135px;
-
         border: 1px solid $silver_two;
 
       }
@@ -311,7 +316,6 @@ header {
 
 
   }
-
 
 }
 
@@ -335,7 +339,6 @@ header {
           margin-top: 24px;
           margin-bottom: 8px;
           color: $dove_Gray;
-          font-family: $roboto;
           font-size: $semiBig;
           font-style: normal;
           font-weight: $normal;
@@ -347,7 +350,6 @@ header {
         .prefooter_article_text {
           margin-bottom: 30px;
           color: $waterloo;
-          font-family: $roboto;
           font-size: $small;
           font-style: normal;
           font-weight: $normal;
@@ -356,21 +358,6 @@ header {
 
         }
 
-        .prefooter_article_btn {
-
-          width: 255px;
-          height: 70px;
-          margin-bottom: 60px;
-          padding: 20px 50px;
-          border: 1px solid $cornflower_Blue;
-          background: transparent;
-          color: $cornflower_Blue;
-          font-family: $roboto;
-          font-size: $medium;
-          font-style: normal;
-          font-weight: $normal;
-          line-height: normal;
-        }
 
       }
 
@@ -429,7 +416,6 @@ footer {
     padding-bottom: 3px;
     text-align: center;
     color: $river_Bed;
-    font-family: $roboto;
     font-size: 13px;
     font-style: normal;
     font-weight: $normal;
